@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="58w-6e-SaO">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -61,6 +61,9 @@
                                                 <state key="normal" title="Red">
                                                     <color key="titleColor" red="0.98152685918909499" green="0.96818884713710873" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="redButton:" destination="58w-6e-SaO" eventType="touchUpInside" id="tEq-su-hwf"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AmF-nC-ehk">
                                                 <rect key="frame" x="128.5" y="0.0" width="118" height="48"/>
@@ -69,6 +72,10 @@
                                                 <state key="normal" title="Blue">
                                                     <color key="titleColor" red="0.98152685920000005" green="0.96818884709999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="blueButton:" destination="58w-6e-SaO" eventType="touchUpInside" id="pbt-Qb-EsS"/>
+                                                    <action selector="redButton:" destination="58w-6e-SaO" eventType="touchUpInside" id="zsS-q9-tLh"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e96-xE-ADb">
                                                 <rect key="frame" x="256.5" y="0.0" width="118.5" height="48"/>
@@ -77,6 +84,9 @@
                                                 <state key="normal" title="Green">
                                                     <color key="titleColor" red="0.98152685920000005" green="0.96818884709999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="greenButton:" destination="58w-6e-SaO" eventType="touchUpInside" id="U5K-5X-4xn"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -90,6 +100,9 @@
                                                 <state key="normal" title="Font 1">
                                                     <color key="titleColor" red="0.98152685920000005" green="0.96818884709999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="font1:" destination="58w-6e-SaO" eventType="touchUpInside" id="pYF-0H-g47"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="InL-r6-hUp">
                                                 <rect key="frame" x="192.5" y="0.0" width="182.5" height="48"/>
@@ -98,6 +111,9 @@
                                                 <state key="normal" title="Font 2">
                                                     <color key="titleColor" red="0.98152685920000005" green="0.96818884709999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="font2:" destination="58w-6e-SaO" eventType="touchUpInside" id="4bD-eL-1iR"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -111,6 +127,9 @@
                                                 <state key="normal" title="Font 3">
                                                     <color key="titleColor" red="0.98152685920000005" green="0.96818884709999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="font3:" destination="58w-6e-SaO" eventType="touchUpInside" id="22P-rX-qU7"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eZe-gy-5si">
                                                 <rect key="frame" x="192.5" y="0.0" width="182.5" height="48"/>
@@ -119,6 +138,9 @@
                                                 <state key="normal" title="Font 4">
                                                     <color key="titleColor" red="0.98152685920000005" green="0.96818884709999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="font4:" destination="58w-6e-SaO" eventType="touchUpInside" id="ehh-sC-9uM"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -132,6 +154,9 @@
                                                 <state key="normal" title="Shadow">
                                                     <color key="titleColor" red="0.98152685920000005" green="0.96818884709999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="shadowCreate:" destination="58w-6e-SaO" eventType="touchUpInside" id="iIp-WZ-k8q"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -145,6 +170,9 @@
                                                 <state key="normal" title="Small">
                                                     <color key="titleColor" red="0.98152685920000005" green="0.96818884709999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="smallButton:" destination="58w-6e-SaO" eventType="touchUpInside" id="mzR-TH-h8L"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E1H-mF-TgO">
                                                 <rect key="frame" x="128.5" y="0.0" width="118" height="48"/>
@@ -153,6 +181,9 @@
                                                 <state key="normal" title="Medium">
                                                     <color key="titleColor" red="0.98152685920000005" green="0.96818884709999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="mediumButton:" destination="58w-6e-SaO" eventType="touchUpInside" id="ohd-Kf-O5v"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sox-cl-qYf">
                                                 <rect key="frame" x="256.5" y="0.0" width="118.5" height="48"/>
@@ -161,6 +192,9 @@
                                                 <state key="normal" title="Large">
                                                     <color key="titleColor" red="0.98152685920000005" green="0.96818884709999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="largeButton:" destination="58w-6e-SaO" eventType="touchUpInside" id="Xbz-Ob-2tc"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -178,6 +212,9 @@
                                 <color key="textColor" red="0.99489795918367352" green="0.98979591836734693" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                <connections>
+                                    <action selector="enterText:" destination="58w-6e-SaO" eventType="editingDidEnd" id="SMS-h2-PL4"/>
+                                </connections>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -199,6 +236,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="VZH-Iv-m9M"/>
                     </view>
+                    <connections>
+                        <outlet property="lable" destination="iqm-7z-ALS" id="UDj-1A-Ch4"/>
+                        <outlet property="textField" destination="d6W-ez-QUO" id="XBw-Ui-FxF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7ox-1m-isv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
