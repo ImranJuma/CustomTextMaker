@@ -34,7 +34,7 @@
         <!--View Controller-->
         <scene sceneID="aip-iz-Jqb">
             <objects>
-                <viewController id="58w-6e-SaO" sceneMemberID="viewController">
+                <viewController id="58w-6e-SaO" customClass="ViewController" customModule="CustomTextMaker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7qU-E9-IyR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
