@@ -74,7 +74,6 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="blueButton:" destination="58w-6e-SaO" eventType="touchUpInside" id="pbt-Qb-EsS"/>
-                                                    <action selector="redButton:" destination="58w-6e-SaO" eventType="touchUpInside" id="zsS-q9-tLh"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e96-xE-ADb">
@@ -238,6 +237,7 @@
                     </view>
                     <connections>
                         <outlet property="lable" destination="iqm-7z-ALS" id="UDj-1A-Ch4"/>
+                        <outlet property="shadowButton" destination="YIS-NL-fHJ" id="W1G-N6-zbm"/>
                         <outlet property="textField" destination="d6W-ez-QUO" id="XBw-Ui-FxF"/>
                     </connections>
                 </viewController>
